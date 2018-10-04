@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="200dp"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/llExpandable"
+        android:id="@+id/llExpandableContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:animateLayoutChanges="true"
@@ -22,8 +22,7 @@
     </LinearLayout>
 
     <Button
-        android:animateLayoutChanges="true"
-        android:id="@+id/btnSeeMore"
+        android:id="@+id/btnCollapsable"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginBottom="8dp"
@@ -42,12 +41,3 @@
         app:layout_constraintVertical_bias="0.777" />
 
 </android.support.constraint.ConstraintLayout>
-
-<!--<com.example.manuelaflores.expandable_textview.CollapsableView
-    android:id="@+id/cvPrueba"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:isExpandable="false"
-    app:itemsToShow="3"
-    xmlns:android="http://schemas.android.com/apk/res/android" /> -->
